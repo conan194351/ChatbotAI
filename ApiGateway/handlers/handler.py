@@ -20,7 +20,7 @@ class Handler:
     def chat():
         data = request.get_json()
         msg_value = data.get('msg')
-        return jsonify(HealthCheckService.chatbot(msg_value))
+        return jsonify(Service.chatbot(msg_value))
     def webhook():
         data = request.get_json()
         if data.get('object') == "page":

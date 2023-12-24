@@ -18,6 +18,6 @@ def chat():
 def webhook():
     return Handler.webhook()
 
-@routers.route('/messaging-webhook', methods=['GET'])
+@routers.route('/webhook', methods=['GET'])
 def messaging_webhook():
     return Handler.get_webhook()
