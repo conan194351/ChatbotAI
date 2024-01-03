@@ -8,10 +8,10 @@ from nltk_utils import bag_of_words, tokenize
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 current_module_path = os.path.dirname(__file__)
-intents_file_path = os.path.join(current_module_path, '', 'intents.json')
+intents_file_path = os.path.join(current_module_path, '..', 'intents.json')
 with open(intents_file_path, 'r', encoding='utf-8') as f:
     intents = json.load(f)
-data_file_path = os.path.join(current_module_path, '', 'data.pth')
+data_file_path = os.path.join(current_module_path, '..', 'data.pth')
 data = torch.load(data_file_path)
 
 input_size = data["input_size"]
