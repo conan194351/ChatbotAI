@@ -1,0 +1,837 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Chào",
+        "Hi",
+        "Làm thế nào bạn",
+        "Có ai ở đó không?",
+        "Xin chào",
+        "Chào buổi sáng"
+      ],
+      "responses": [
+        "Chào bạn :-)",
+        "Xin chào, cảm ơn bạn đã ghé thăm",
+        "Xin chào, tôi có thể giúp gì cho bạn?",
+        "Xin chào, bạn cần giúp gì?"
+      ]
+    },
+    {
+      "tag": "question1",
+      "patterns": [
+        "trượt 28 tín",
+        "cảnh cáo loại 3",
+        "điểm rèn luyện dưới 50 2 kì liên tiếp"
+      ],
+      "responses": [
+        "Với tình trạng học tập như vậy bạn sẽ bị đuổi học!"
+      ]
+    },
+    {
+      "tag": "question2",
+      "patterns": [
+        "khi nào bị tăng bậc cảnh cáo"
+      ],
+      "responses": [
+        "Mỗi học kì trượt quá 8 tín sẽ tăng 1 bậc cảnh cáo"
+      ]
+    },
+    {
+      "tag": "question3",
+      "patterns": [
+        "đoàn thanh niên trang web",
+        "đoàn thanh niên có trang web",
+        "URL trang web của đoàn thanh niên"
+      ],
+      "responses": [
+        "Trang web của đoàn thanh niên là svbk.hust.edu.vn."
+      ]
+    },
+    {
+      "tag": "question4",
+      "patterns": [
+        "quy định học tập",
+        "xem quy định học tập",
+        "quy chế học tập công bố"
+      ],
+      "responses": [
+        "Quy định học tập có thể xem tại https://ctt-daotao.hust.edu.vn."
+      ]
+    },
+    {
+      "tag": "question5",
+      "patterns": [
+        "trọng số điểm của các môn học"
+      ],
+      "responses": [
+        "Môn học có Trọng số giữa kỳ là 0.3 và Cuối kỳ là 0.7."
+      ]
+    },
+    {
+      "tag": "question6",
+      "patterns": [
+        "xử lý học tập học kỳ yếu tố",
+        "quyết định học tập học kỳ",
+        "sinh viên đánh giá học kỳ"
+      ],
+      "responses": [
+        "Xử lý học tập dựa vào Số tín chỉ đạt, Số tín chỉ không đạt, và Điểm trung bình học kỳ."
+      ]
+    },
+    {
+      "tag": "question7",
+      "patterns": [
+        "chốt chấm điểm rèn luyện"
+      ],
+      "responses": [
+        "Điểm chốt tính theo Cột điểm GV chấm."
+      ]
+    },
+    {
+      "tag": "question8",
+      "patterns": [
+        "yêu cầu bắt buộc email thắc mắc học tập",
+        "khi gửi email thắc mắc học tập, sinh viên cần tuân theo điều"
+      ],
+      "responses": [
+        "Sử dụng email do Trường cấp là yêu cầu bắt buộc."
+      ]
+    },
+    {
+      "tag": "question9",
+      "patterns": [
+        "cảnh cáo học tập mức 1 đăng ký tối đa tối thiểu tín chỉ",
+        "cảnh cáo học tập mức 1 đăng ký tối đa tối thiểu tín chỉ trong học kỳ chính",
+        "cảnh cáo học tập mức 1 đăng ký tối đa bao nhiêu tín chỉ"
+      ],
+      "responses": [
+        "Tối đa 18 tín chỉ và tối thiểu 10 tín chỉ cho một học kỳ chính."
+      ]
+    },
+    {
+      "tag": "question10",
+      "patterns": [
+        "quy trình đăng ký học tập",
+        "các giai đoạn đăng ký học tập"
+      ],
+      "responses": [
+        "Quy trình đăng ký học tập bao gồm Đăng ký học phần, Đăng ký lớp chính thức, và Điều chỉnh đăng ký."
+      ]
+    },
+    {
+      "tag": "question11",
+      "patterns": [
+        "sinh viên năm 2 tín chỉ",
+        "trình độ sinh viên năm 2"
+      ],
+      "responses": [
+        "Trình độ năm thứ hai căn cứ vào số tín chỉ tích lũy từ 32-63."
+      ]
+    },
+    {
+      "tag": "question12",
+      "patterns": [
+        "thời gian xin rút học phần khi nào",
+        "thời điểm phù hợp xin rút học phần",
+        "cách xin rút học phần thời gian áp dụng",
+        "muốn xin rút học phần"
+      ],
+      "responses": [
+        "Thời gian xin rút một học phần là trước 1/2 thời gian của học phần đó."
+      ]
+    },
+    {
+      "tag": "question13",
+      "patterns": [
+        "khoảng thời gian sinh viên đăng ký học tập học kỳ tới khi nào",
+        "lịch đăng ký học tập học kỳ tiếp theo",
+        "thời điểm đăng ký học tập kỳ sau bao lâu",
+        "lịch đăng ký học tập"
+      ],
+      "responses": [
+        "Sinh viên sẽ đăng ký học tập cho học kỳ tới trong tuần 5-6 của kỳ đang học."
+      ]
+    },
+    {
+      "tag": "question14",
+      "patterns": [
+        "sinh viên trung bình điểm CPA",
+        "CPA trung bình"
+      ],
+      "responses": [
+        "Sinh viên được xếp loại học lực trung bình nếu điểm CPA từ 2.0-2.49."
+      ]
+    },
+    {
+      "tag": "question15",
+      "patterns": [
+        "làm thế nào để học đúng tiến độ",
+        "cách học đúng tiến độ",
+        "hướng dẫn duy trì tiến độ học tập"
+      ],
+      "responses": [
+        "Học đúng tiến độ bằng cách tuân thủ học kỳ chuẩn của Chương trình đào tạo."
+      ]
+    },
+    {
+      "tag": "question16",
+      "patterns": [
+        "điểm rèn luyện xếp loại xuất sắc tốt khá trung bình yếu kém",
+        "xếp hạng điểm rèn luyện"
+      ],
+      "responses": [
+        "Điểm rèn luyện được xếp loại theo thang điểm Xuất sắc, Tốt, Khá, Trung bình, Yếu, Kém."
+      ]
+    },
+    {
+      "tag": "question17",
+      "patterns": [
+        "học bổng Trần Đại Nghĩa hỗ trợ học tập mấy mức",
+        "học bổng Hỗ trợ học tập",
+        "học bổng Trần Đại Nghĩa"
+      ],
+      "responses": [
+        "Học bổng Trần Đại Nghĩa có 2 mức: 50% học phí, 100% học phí."
+      ]
+    },
+    {
+      "tag": "question18",
+      "patterns": [
+        "quy định cấp học bổng sinh viên xem tại",
+        "cấp học bổng xem tại",
+        "trang web về học bổng"
+      ],
+      "responses": [
+        "Quy định về việc xét cấp học bổng cho sinh viên có thể xem tại https://ctt-daotao.hust.edu.vn."
+      ]
+    },
+    {
+      "tag": "question19",
+      "patterns": [
+        "điểm rèn luyện đánh giá khi nào",
+        "khi nào xác định điểm rèn luyện sinh viên",
+        "thời điểm đánh giá điểm rèn luyện"
+      ],
+      "responses": [
+        "Điểm rèn luyện được đánh giá vào cuối học kỳ."
+      ]
+    },
+    {
+      "tag": "question20",
+      "patterns": [
+        "nơi đặt văn phòng ban công tác sinh viên",
+        "địa chỉ ban công tác sinh viên",
+        "đến ban công tác sinh viên"
+      ],
+      "responses": [
+        "Địa chỉ Ban Công tác Sinh viên là Phòng 101-102-103-104-105 nhà C1."
+      ]
+    },
+    {
+      "tag": "question21",
+      "patterns": [
+        "số ban chuyên môn trong ban chấp hành đoàn đại học",
+        "ban chuyên môn có bao nhiêu",
+        "ban chuyên môn trong cơ cấu của ban chấp hành đoàn đại học"
+      ],
+      "responses": [
+        "Ban Chấp hành Đoàn Đại học bao gồm 07 Ban Chuyên môn."
+      ]
+    },
+    {
+      "tag": "question23",
+      "patterns": [
+        "quy định về bảo hiểm y tế cho sinh viên",
+        "hướng dẫn về bảo hiểm y tế cho sinh viên",
+        "thông tin về bảo hiểm y tế"
+      ],
+      "responses": [
+        "Theo quy định của Luật Bảo hiểm y tế (BHYT), mọi sinh viên bắt buộc phải có BHYT."
+      ]
+    },
+    {
+      "tag": "question24",
+      "patterns": [
+        "điều kiện để đạt sinh viên 5 tốt",
+        "tiêu chí để được danh hiệu sinh viên 5 tốt là gì",
+        "những yếu tố cần đáp ứng để đạt danh hiệu sinh viên 5 tốt"
+      ],
+      "responses": [
+        "Đạt danh hiệu Sinh viên 5 tốt cần đáp ứng tiêu chí: Đạo đức tốt, Học tập tốt, Tình nguyện tốt, Thể lực tốt, Hội nhập tốt."
+      ]
+    },
+    {
+      "tag": "question25",
+      "patterns": [
+        "điều kiện chuyển ngành học",
+        "thủ tục chuyển ngành học cho sinh viên",
+        "quy định về việc chuyển ngành học đại học"
+      ],
+      "responses": [
+        "Sinh viên có thể chuyển ngành học khi có điểm xét tuyển trong kỳ tuyển sinh Đại học cao hơn điểm trúng tuyển (cùng tổ hợp môn xét tuyển) của ngành/chương trình muốn chuyển sang học."
+      ]
+    },
+    {
+      "tag": "question26",
+      "patterns": [
+        "email của ban đào tạo",
+        "địa chỉ email liên hệ với ban đào tạo",
+        "thông tin liên hệ qua email với ban đào tạo"
+      ],
+      "responses": [
+        "Địa chỉ email của Ban Đào tạo là dt@hust.edu.vn."
+      ]
+    },
+    {
+      "tag": "question27",
+      "patterns": [
+        "mục tiêu học tập",
+        "những yếu tố cần có trong mục tiêu học tập",
+        "điều gì được coi là mục tiêu học tập hiệu quả"
+      ],
+      "responses": [
+        "Mục tiêu học tập phải đảm bảo tính vừa sức, tính rõ ràng, và tính cụ thể."
+      ]
+    },
+    {
+      "tag": "question28",
+      "patterns": [
+        "khi nào sinh viên phải tự đăng ký lớp",
+        "thời điểm bắt đầu tự đăng ký lớp học",
+        "kỳ học nào là kỳ bắt đầu tự đăng ký lớp của sinh viên"
+      ],
+      "responses": [
+        "Sinh viên phải tự đăng ký lớp bắt đầu từ kỳ 3."
+      ]
+    },
+    {
+      "tag": "question29",
+      "patterns": [
+        "luật parkinson của gs cyril northcote parkinson",
+        "luật parkinson về mối quan hệ giữa sự nỗ lực và thời gian làm việc",
+        "nguyên lý parkinson của gs cyril northcote parkinson"
+      ],
+      "responses": [
+        "Luật Parkinson của GS. Cyril Northcote Parkinson cho rằng mối quan hệ giữa sự nỗ lực và thời gian làm việc là thời gian càng dài, sự nỗ lực càng giảm."
+      ]
+    },
+    {
+      "tag": "question30",
+      "patterns": [
+        "thời gian nghỉ ốm dài hạn và phép",
+        "muốn nghỉ ốm dài hạn và phép",
+        "thời hạn nghỉ ốm dài hạn không tính vào thời gian chậm tiến độ",
+        "điều kiện về thời gian nghỉ ốm dài hạn của sinh viên"
+      ],
+      "responses": [
+        "Thời gian nghỉ ốm dài hạn có phép không tính vào thời gian chậm tiến độ, nếu tổng cộng không vượt quá 2 năm."
+      ]
+    },
+    {
+      "tag": "question32",
+      "patterns": [
+        "ngày bác hồ về thăm trường",
+        "bác hồ đến thăm trường vào ngày nào",
+        "thời điểm bác hồ đến thăm trường"
+      ],
+      "responses": [
+        "Bác Hồ đã về thăm trường vào ngày 17/06/1960."
+      ]
+    },
+    {
+      "tag": "question33",
+      "patterns": [
+        "học kỳ hè học tối đa bao nhiêu tín chỉ",
+        "học kỳ hè đăng ký tối đa bao nhiêu tín chỉ",
+        "sinh viên được phép học tối đa bao nhiêu tín chỉ trong học kỳ hè",
+        "giới hạn tín chỉ học trong học kỳ hè của sinh viên"
+      ],
+      "responses": [
+        "Trong học kỳ hè, sinh viên có thể học tối đa 8 tín chỉ."
+      ]
+    },
+    {
+      "tag": "question34",
+      "patterns": [
+        "địa điểm phòng tiếp nhận hỗ trợ tư vấn học tập tâm lý sinh viên",
+        "nơi tiếp nhận hỗ trợ tư vấn học tập tâm lý cho sinh viên",
+        "địa chỉ của phòng tiếp nhận hỗ trợ tư vấn học tập tâm lý sinh viên"
+      ],
+      "responses": [
+        "Phòng tiếp nhận, hỗ trợ, tư vấn về học tập và tâm lý cho sinh viên gặp khó khăn là C1 - 101."
+      ]
+    },
+    {
+      "tag": "question35",
+      "patterns": [
+        "học bổng khuyến khích học tập loại giỏi",
+        "thông tin về mức học bổng khuyến khích học tập loại giỏi",
+        "học bổng cho sinh viên loại giỏi là bao nhiêu"
+      ],
+      "responses": [
+        "Mức học bổng khuyến khích học tập loại giỏi (loại B) tương đương với 1,2 lần mức học phí sinh viên phải đóng của tất cả các học phần tính điểm trung bình học kỳ (GPA)."
+      ]
+    },
+    {
+      "tag": "question36",
+      "patterns": [
+        "thủ tục xin cấp giấy chứng nhận sinh viên",
+        "quy trình xin cấp giấy chứng nhận sinh viên",
+        "các bước để lấy giấy chứng nhận sinh viên"
+      ],
+      "responses": [
+        "Các bước xin cấp giấy chứng nhận sinh viên bao gồm: Bước 1 đăng ký trên app iCTSV, bước 2 check mail hẹn lịch, bước 3 đến Ban Công tác Sinh viên để nhận giấy."
+      ]
+    },
+    {
+      "tag": "question40",
+      "patterns": [
+        "nơi làm lại thẻ bảo hiểm y tế",
+        "làm lại thẻ bảo hiểm y tế ở đâu",
+        "thủ tục làm lại thẻ BHYT sinh viên"
+      ],
+      "responses": [
+        "Sinh viên có thể làm lại thẻ bảo hiểm y tế tại Ban Công tác Sinh viên."
+      ]
+    },
+    {
+      "tag": "question41",
+      "patterns": [
+        "sinh viên xếp loại rèn luyện yếu kém hai học kỳ liên tiếp bị xử lý như thế nào",
+        "xử lý đối với sinh viên xếp loại rèn luyện yếu kém hai học kỳ liên tiếp",
+        "quy định về sinh viên xếp loại rèn luyện yếu kém"
+      ],
+      "responses": [
+        "Sinh viên bị xếp loại rèn luyện yếu, kém hai học kỳ liên tiếp sẽ bị buộc thôi học."
+      ]
+    },
+    {
+      "tag": "question42",
+      "patterns": [
+        "trang web tra cứu đăng ký học tập cá nhân của sinh viên",
+        "nơi tra cứu thông tin đăng ký học tập cá nhân",
+        "website xem đăng ký học tập của sinh viên"
+      ],
+      "responses": [
+        "Sinh viên có thể tra cứu về đăng ký học tập cá nhân tại http://sis.hust.edu.vn."
+      ]
+    },
+    {
+      "tag": "question43",
+      "patterns": [
+        "quy tắc số 4 trong bộ quy tắc văn hóa giao tiếp nhà trường và môi trường mạng liên quan đến",
+        "mục quy tắc số 4 về giao tiếp trong nhà trường và môi trường mạng",
+        "nội dung quy tắc số 4 về văn hóa giao tiếp sinh viên"
+      ],
+      "responses": [
+        "Quy tắc số 4 liên quan đến Kính trọng, lễ phép, tôn sự trọng đạo với thầy cô; tôn trọng, hợp tác, lịch sự, nhã nhặn với cán bộ, nhân viên trường."
+      ]
+    },
+    {
+      "tag": "question45",
+      "patterns": [
+        "điều kiện đạt trình độ ngoại ngữ và điểm gpa do đâu",
+        "thủ tục xác nhận trình độ ngoại ngữ và điểm gpa",
+        "quy định về đánh giá tiêu chí gpa và trình độ ngoại ngữ"
+      ],
+      "responses": [
+        "Trường (thông qua Ban CTSV, hệ thống iCTSV) đối chiếu và cộng điểm."
+      ]
+    },
+    {
+      "tag": "question46",
+      "patterns": [
+        "người giám sát hoạt động học tập của sinh viên là ai",
+        "ai chịu trách nhiệm giám sát học tập của sinh viên",
+        "cơ quan nào giám sát hoạt động học tập của sinh viên"
+      ],
+      "responses": [
+        "Người giám sát hoạt động học tập của sinh viên là Cố vấn học tập."
+      ]
+    },
+    {
+      "tag": "question47",
+      "patterns": [
+        "trường hợp không mua bhyt sinh viên",
+        "khi nào không cần mua bhyt",
+        "đối tượng không bắt buộc mua bhyt sinh viên"
+      ],
+      "responses": [
+        "Sinh viên đã được cấp thẻ BHYT theo diện hộ nghèo/cận nghèo không phải mua BHYT."
+      ]
+    },
+    {
+      "tag": "question48",
+      "patterns": [
+        "thủ tục hoãn thi do bệnh cần gì",
+        "điều kiện hoãn thi do bệnh",
+        "giấy tờ cần thiết cho thủ tục hoãn thi do bệnh"
+      ],
+      "responses": [
+        "Để hoãn thi do bị đau, ốm, sinh viên cần có giấy xác nhận/bệnh án của bệnh viện bất kỳ."
+      ]
+    },
+    {
+      "tag": "question49",
+      "patterns": [
+        "kiểm tra thông tin mượn trả tài liệu thư viện ở đâu",
+        "nơi tra cứu thông tin mượn trả tài liệu",
+        "địa chỉ trang web kiểm tra thông tin mượn trả tài liệu"
+      ],
+      "responses": [
+        "Để kiểm tra thông tin về hoạt động mượn trả tài liệu của tài khoản Thư viện, bạn đọc phải truy cập vào địa chỉ http://libopac.hust.edu.vn/."
+      ]
+    },
+    {
+      "tag": "question50",
+      "patterns": [
+        "địa chỉ ban đào tạo",
+        "nơi có ban đào tạo",
+        "phòng ban đào tạo ở đâu"
+      ],
+      "responses": [
+        "Địa chỉ của Ban Đào tạo là Phòng 201-202 nhà C1."
+      ]
+    },
+    {
+      "tag": "question51",
+      "patterns": [
+        "đại học bách khoa hà nội thành lập vào năm nào",
+        "năm thành lập đại học bách khoa hà nội",
+        "đại học nổi tiếng thành lập vào thời điểm nào"
+      ],
+      "responses": [
+        "Đại học Bách khoa Hà Nội được thành lập vào năm 1956."
+      ]
+    },
+    {
+      "tag": "question52",
+      "patterns": [
+        "quy định đánh giá điểm rèn luyện sinh viên ở đâu",
+        "nơi xem quy định đánh giá điểm rèn luyện",
+        "trang web về quy định điểm rèn luyện sinh viên"
+      ],
+      "responses": [
+        "Quy định về việc đánh giá điểm rèn luyện sinh viên có thể xem tại Ctt-daotao.hust.edu.vn."
+      ]
+    },
+    {
+      "tag": "question53",
+      "patterns": [
+        "khi học phần bị điểm F phải học lại",
+        "điều kiện học lại khi bị điểm F",
+        "quy định về học lại môn học có điểm F"
+      ],
+      "responses": [
+        "Khi học phần bị điểm F, sinh viên cần học lại tùy vào tình hình đăng ký học, càng sớm càng tốt."
+      ]
+    },
+    {
+      "tag": "question54",
+      "patterns": [
+        "mục có điểm rèn luyện cao nhất theo bộ khung đánh giá 2023-2024",
+        "điểm rèn luyện cao nhất trong bộ khung đánh giá",
+        "thang điểm đánh giá cao nhất về rèn luyện sinh viên"
+      ],
+      "responses": [
+        "Mục có điểm rèn luyện cao nhất theo bộ khung đánh giá 2023-2024 là Điểm học tập."
+      ]
+    },
+    {
+      "tag": "question55",
+      "patterns": [
+        "quy định về quy đổi điểm chữ b sang thang 4",
+        "chuyển đổi điểm chữ b sang thang điểm 4",
+        "điểm chữ b tương đương với bao nhiêu điểm trên thang 4",
+        "điểm b tương đương bao nhiêu"
+      ],
+      "responses": [
+        "Một môn học có điểm chữ là B thì quy đổi sang thang 4 sẽ là 3 điểm."
+      ]
+    },
+    {
+      "tag": "question56",
+      "patterns": [
+        "nơi nạp tiền thẻ gửi xe đạp/xe máy",
+        "địa chỉ nạp tiền thẻ gửi xe đạp/xe máy",
+        "trung tâm nạp tiền thẻ gửi xe ở đâu"
+      ],
+      "responses": [
+        "Sinh viên có thể nạp tiền thẻ gửi xe đạp/xe máy tại Trung tâm Dịch vụ và Hỗ trợ Bách Khoa."
+      ]
+    },
+    {
+      "tag": "question57",
+      "patterns": [
+        "điểm tối đa của tiêu chí điểm học tập trong khung đánh giá 2023-2024 là bao nhiêu",
+        "giới hạn điểm tối đa của tiêu chí học tập",
+        "số điểm tối đa của tiêu chí điểm học tập"
+      ],
+      "responses": [
+        "Theo khung đánh giá kết quả rèn luyện sinh viên năm 2023-2024, tiêu chí điểm học tập cộng tối đa là 30 điểm."
+      ]
+    },
+    {
+      "tag": "question58",
+      "patterns": [
+        "điều kiện khi đăng ký học phần",
+        "quy định về đăng ký học phần",
+        "thủ tục đăng ký học phần"
+      ],
+      "responses": [
+        "Sinh viên được đăng ký học phần trong cả hai đợt: chính thức và điều chỉnh."
+      ]
+    },
+    {
+      "tag": "question59",
+      "patterns": [
+        "nơi làm vé tháng xe buýt",
+        "địa chỉ làm vé tháng xe buýt",
+        "điểm làm vé tháng xe buýt"
+      ],
+      "responses": [
+        "Để làm vé tháng xe buýt, sinh viên có thể đến Ban Công tác Sinh viên."
+      ]
+    },
+    {
+      "tag": "question61",
+      "patterns": [
+        "sinh viên bị nâng một mức cảnh cáo khi nào",
+        "điều kiện nâng mức cảnh cáo sinh viên"
+      ],
+      "responses": [
+        "Sinh viên bị nâng một mức cảnh cáo khi có số tín chỉ không đạt trong học kỳ lớn hơn 8 tín chỉ."
+      ]
+    },
+    {
+      "tag": "question62",
+      "patterns": [
+        "dịch vụ của Thư viện Tạ Quang Bửu",
+        "các dịch vụ Thư viện Tạ Quang Bửu"
+      ],
+      "responses": [
+        "Các dịch vụ của Thư viện Tạ Quang Bửu bao gồm:\n1. Đọc tài liệu (sách, báo, tạp chí, luận văn, luận án, v.v…) tại chỗ.\n2. Mượn tài liệu (giáo trình, sách văn học, chính trị, ngôn ngữ,…) về nhà.\n3. Sử dụng máy tính tra cứu để truy cập các Cơ sở dữ liệu điện tử trực tuyến và tìm kiếm thông tin trên Internet miễn phí."
+      ]
+    },
+    {
+      "tag": "question63",
+      "patterns": [
+        "GPA và CPA là gì",
+        "nghĩa của GPA và CPA"
+      ],
+      "responses": [
+        "GPA là điểm trung bình môn trong 1 học kỳ, CPA là điểm trung bình môn từ năm học thứ nhất."
+      ]
+    },
+    {
+      "tag": "question64",
+      "patterns": [
+        "khi mất thẻ sinh viên phải làm gì",
+        "thủ tục khi mất thẻ sinh viên"
+      ],
+      "responses": [
+        "Khi mất thẻ sinh viên, bạn cần báo cho Ban Công tác Sinh viên và đăng ký làm lại thẻ mới."
+      ]
+    },
+    {
+      "tag": "question65",
+      "patterns": [
+        "sinh viên xem tổng số tiền học phí ở đâu",
+        "thông tin học phí sinh viên xem ở đâu"
+      ],
+      "responses": [
+        "Sinh viên có thể xem tổng số tiền học phí phải đóng trong một học kỳ tại trang ctt-daotao.hust.edu.vn, sau đó vào tài khoản cá nhân để kiểm tra."
+      ]
+    },
+    {
+      "tag": "question66",
+      "patterns": [
+        "địa chỉ email của Hội sinh viên"
+      ],
+      "responses": [
+        "Địa chỉ email của Hội sinh viên là hsv@hust.edu.vn."
+      ]
+    },
+    {
+      "tag": "question67",
+      "patterns": [
+        "sau thời gian điều chỉnh đăng ký, sinh viên làm đơn xin rút học phần khi nào",
+        "điều kiện rút học phần sau thời gian điều chỉnh đăng ký"
+      ],
+      "responses": [
+        "Sau thời gian điều chỉnh đăng ký, sinh viên có thể làm đơn xin rút học phần và phải đóng phí cho học phần được rút"
+      ]
+    },
+    {
+      "tag": "question68",
+      "patterns": [
+        "sinh viên hoàn thành chương trình và tốt nghiệp sớm hơn hoặc chậm hơn bao lâu",
+        "thời gian hoàn thành chương trình tốt nghiệp sớm hoặc chậm"
+      ],
+      "responses": [
+        "Sinh viên được phép hoàn thành chương trình (Chương trình đào tạo từ 4 đến 5 năm) và tốt nghiệp sớm hơn hoặc chậm hơn so với kế hoạch không quá 5 học kỳ."
+      ]
+    },
+    {
+      "tag": "question69",
+      "patterns": [
+        "trong trường hợp lớp bị hủy sinh viên phải làm gì",
+        "điều kiện khi lớp bị hủy"
+      ],
+      "responses": [
+        "Trong trường hợp lớp bị hủy, sinh viên phải chủ động đăng ký vào lớp khác thay cho lớp đã bị hủy trong thời gian đăng ký quy định."
+      ]
+    },
+    {
+      "tag": "question70",
+      "patterns": [
+        "sinh viên bị hạ một mức cảnh cáo khi nào",
+        "điều kiện bị hạ mức cảnh cáo sinh viên"
+      ],
+      "responses": [
+        "Sinh viên bị hạ một mức cảnh cáo khi có số tín chỉ không đạt trong học kỳ ít hơn hoặc bằng 4 tín chỉ."
+      ]
+    },
+    {
+      "tag": "question71",
+      "patterns": [
+        "khung đánh giá kết quả rèn luyện sinh viên năm 2023-2024",
+        "tiêu chí đánh giá kết quả rèn luyện 2023-2024"
+      ],
+      "responses": [
+        "Theo khung đánh giá kết quả rèn luyện sinh viên năm 2023-2024, tiêu chí có các thành tích trong học tập, NCKH và rèn luyện được cộng tối đa 3 điểm."
+      ]
+    },
+    {
+      "tag": "question72",
+      "patterns": [
+        "có mấy mức cảnh báo học tập đối với sinh viên",
+        "số mức cảnh báo học tập"
+      ],
+      "responses": [
+        "Có ba mức cảnh báo học tập đối với sinh viên: mức 1, mức 2, mức 3."
+      ]
+    },
+    {
+      "tag": "question73",
+      "patterns": [
+        "fanpage của Trường là gì",
+        "trang Facebook của Trường"
+      ],
+      "responses": [
+        "Fanpage của Trường là https://www.facebook.com/dhbkhanoi/."
+      ]
+    },
+    {
+      "tag": "question74",
+      "patterns": [
+        "quy tắc văn hóa giao tiếp trong nhà trường và môi trường mạng liên quan đến đối tượng nào",
+        "đối tượng áp dụng quy tắc giao tiếp nhà trường và môi trường mạng"
+      ],
+      "responses": [
+        "Quy tắc văn hóa giao tiếp trong Nhà trường và môi trường mạng của Nhà trường liên quan đến những nhóm đối tượng bao gồm: cán bộ, viên chức, giảng viên, sinh viên, học viên, và nghiên cứu sinh."
+      ]
+    },
+    {
+      "tag": "question75",
+      "patterns": [
+        "mã học phần IT4xxx thuộc nhóm nào",
+        "nhóm học phần IT4xxx"
+      ],
+      "responses": [
+        "Học phần có mã IT4xxx thuộc nhóm Cốt lõi ngành."
+      ]
+    },
+    {
+      "tag": "question76",
+      "patterns": [
+        "tài liệu phòng mượn giáo trình được dán nhãn màu gì",
+        "màu nhãn tài liệu phòng mượn giáo trình"
+      ],
+      "responses": [
+        "Tài liệu Phòng mượn giáo trình được dán nhãn màu xanh."
+      ]
+    },
+    {
+      "tag": "question77",
+      "patterns": [
+        "khi lập kế hoạch học tập tốt và tuân thủ kết quả đạt được là gì",
+        "kết quả của việc lập kế hoạch học tập tốt và tuân thủ"
+      ],
+      "responses": [
+        "Khi lập được một Kế hoạch học tập tốt và tuân thủ theo kế hoạch đề ra, kết quả đạt được là kết quả học tập tốt, rút ngắn được thời gian hoàn thành CTĐT."
+      ]
+    },
+    {
+      "tag": "question78",
+      "patterns": [
+        "sinh viên đăng ký nội trú ktx ở đâu",
+        "nơi đăng ký nội trú ktx",
+        "đăng ký ký túc xá"
+      ],
+      "responses": [
+        "Sinh viên đăng ký nội trú KTX tại Trung tâm Dịch vụ và Hỗ trợ Bách Khoa."
+      ]
+    },
+    {
+      "tag": "question79",
+      "patterns": [
+        "điểm liệt (điểm học phần là F) là bao nhiêu",
+        "điểm liệt học phần là F"
+      ],
+      "responses": [
+        "Điểm liệt (điểm học phần là F) là khi điểm giữa kỳ bé hơn 1 hoặc điểm cuối kỳ bé hơn 1."
+      ]
+    },
+    {
+      "tag": "question80",
+      "patterns": [
+        "sinh viên thuộc chương trình ELITECH được đăng ký tối đa bao nhiêu tín chỉ trong một học kỳ khi bị cảnh cáo học tập mức 2",
+        "điều kiện đăng ký tín chỉ ELITECH khi cảnh cáo học tập mức 2"
+      ],
+      "responses": [
+        "Sinh viên thuộc chương trình ELITECH được đăng ký tối đa 18 tín chỉ trong một học kỳ khi bị cảnh cáo học tập mức 2."
+      ]
+    },        
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Tạm biệt",
+        "Hẹn gặp lại",
+        "Tạm biệt"
+      ],
+      "responses": [
+        "Hẹn gặp lại, cảm ơn bạn đã ghé thăm",
+        "Chúc bạn một ngày tốt lành",
+        "Tạm biệt! Hãy quay lại sớm nhé."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Cảm ơn",
+        "Thank you",
+        "Thật hữu ích",
+        "Cảm ơn nhiều!"
+      ],
+      "responses": [
+        "Rất vui được giúp đỡ!",
+        "Bất kỳ lúc nào!",
+        "Vui lòng"
+      ]
+    },   
+    {
+      "tag": "funny",
+      "patterns": [
+        "Kể một câu chuyện cười!",
+        "Nói điều gì đó vui!",
+        "Bạn biết một câu chuyện không?"
+      ],
+      "responses": [
+        "Tại sao hipster đã làm bỏng miệng? Anh ta uống cà phê trước khi nó trở nên 'cool'.",
+        "Bò bison nói gì khi con trai nó rời đi học đại học? Bò con."
+      ]
+    }
+  ]
+}

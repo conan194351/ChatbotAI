@@ -1,11 +1,6 @@
 # service.py
 from .chat import get_response, bot_name
-import requests
-import os
-from dotenv import load_dotenv
 
-# Load environment variables from the .env file
-load_dotenv()
 class HealthCheckService:
     @staticmethod
     def check_health():

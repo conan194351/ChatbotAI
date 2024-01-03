@@ -39,6 +39,226 @@
       ]
     },
     {
+      "tag": "question1",
+      "patterns": [
+        "Trang web của Đoàn thanh niên là gì?",
+        "Đoàn thanh niên có trang web nào?",
+        "Cung cấp URL cho trang web của Đoàn thanh niên."
+      ],
+      "responses": [
+        "Trang web của Đoàn thanh niên là svbk.hust.edu.vn."
+      ]
+    },
+    {
+      "tag": "question2",
+      "patterns": [
+        "Quy định, quy chế về học tập ở đâu?",
+        "Xem quy định học tập ở trang nào?",
+        "Quy chế học tập có được công bố ở đâu?"
+      ],
+      "responses": [
+        "Quy định, quy chế về học tập có thể xem tại https://ctt-daotao.hust.edu.vn/."
+      ]
+    },
+    {
+      "tag": "question3",
+      "patterns": [
+        "Một môn học có trọng số KT(0.3)-T(0.7) nghĩa là gì?",
+        "Giải thích về trọng số KT-T trong môn học.",
+        "Trọng số KT-T 0.3-0.7 có ý nghĩa gì?"
+      ],
+      "responses": [
+        "Môn học đó có Trọng số giữa kỳ là 0.3 và Cuối kỳ là 0.7."
+      ]
+    },
+    {
+      "tag": "question4",
+      "patterns": [
+        "Xử lý học tập trong một học kỳ dựa vào những yếu tố nào?",
+        "Quyết định về học tập trong một học kỳ dựa vào điều gì?",
+        "Sinh viên được đánh giá bằng những yếu tố nào trong một học kỳ?"
+      ],
+      "responses": [
+        "Xử lý học tập dựa vào Số tín chỉ đạt, Số tín chỉ không đạt, và Điểm trung bình học kỳ."
+      ]
+    },
+    {
+      "tag": "question5",
+      "patterns": [
+        "Mục chấm điểm rèn luyện có 2 cột điểm SV chấm và điểm GV chấm, điểm chốt tính theo điểm nào?",
+        "Điểm chốt của mục chấm điểm rèn luyện dựa trên điểm nào?",
+        "Cột điểm nào quyết định điểm chốt trong mục chấm điểm rèn luyện?"
+      ],
+      "responses": [
+        "Điểm chốt tính theo Cột điểm GV chấm."
+      ]
+    },
+    {
+      "tag": "question6",
+      "patterns": [
+        "Yêu cầu bắt buộc khi gửi email thắc mắc về học tập là gì?",
+        "Khi gửi email thắc mắc về học tập, sinh viên cần tuân theo điều gì?",
+        "Cần đáp ứng những yêu cầu gì khi gửi email về học tập?"
+      ],
+      "responses": [
+        "Sử dụng email do Trường cấp là yêu cầu bắt buộc."
+      ]
+    },
+    {
+      "tag": "question7",
+      "patterns": [
+        "Sinh viên bị cảnh cáo học tập mức 1 được đăng ký tối đa và tối thiểu bao nhiêu tín chỉ trong một học kỳ chính?",
+        "Giới hạn đăng ký tín chỉ của sinh viên bị cảnh cáo học tập mức 1 là bao nhiêu?",
+        "Có bao nhiêu tín chỉ tối đa và tối thiểu cho sinh viên bị cảnh cáo học tập mức 1 trong một học kỳ chính?"
+      ],
+      "responses": [
+        "Tối đa 18 tín chỉ và tối thiểu 10 tín chỉ cho một học kỳ chính."
+      ]
+    },
+    {
+      "tag": "question8",
+      "patterns": [
+        "Nơi nào để tìm hiểu về nội quy và quy trình hướng dẫn sử dụng dịch vụ thư viện?",
+        "Thông tin về quy trình sử dụng dịch vụ thư viện ở đâu?",
+        "Đọc nội quy và quy trình sử dụng dịch vụ thư viện ở đâu?"
+      ],
+      "responses": [
+        "Bạn đọc có thể tìm hiểu các nội quy và quy trình trên cổng thông tin Thư viện: http://library.hust.edu.vn và tại các phòng phục vụ."
+      ]
+    },
+    {
+      "tag": "question9",
+      "patterns": [
+        "Khi cần khôi phục tài khoản Email sinh viên liên hệ với ai?",
+        "Ai là người liên hệ khi cần khôi phục tài khoản Email sinh viên?",
+        "Liên hệ với ai để khôi phục tài khoản Email sinh viên?"
+      ],
+      "responses": [
+        "Khi cần khôi phục tài khoản Email sinh viên, liên hệ với Ban Công tác sinh viên."
+      ]
+    },
+    {
+      "tag": "question10",
+      "patterns": [
+        "Quy trình đăng ký học tập trên hệ thống thông tin sinh viên theo các giai đoạn như thế nào?",
+        "Giai đoạn nào trong quy trình đăng ký học tập đầu tiên?",
+        "Các giai đoạn đăng ký học tập là gì?"
+      ],
+      "responses": [
+        "Quy trình đăng ký học tập bao gồm Đăng ký học phần, Đăng ký lớp chính thức, và Điều chỉnh đăng ký."
+      ]
+    },
+    {
+      "tag": "question11",
+      "patterns": [
+        "Sinh viên được xếp hạng trình độ năm thứ hai dựa trên số tín chỉ tích lũy như thế nào?",
+        "Tiêu chí xếp hạng trình độ năm thứ hai là gì?",
+        "Cách tính xếp hạng năm thứ hai của sinh viên là gì?"
+      ],
+      "responses": [
+        "Trình độ năm thứ hai căn cứ vào số tín chỉ tích lũy từ 32-63."
+      ]
+    },
+    {
+      "tag": "question12",
+      "patterns": [
+        "Thời gian xin rút một học phần là khi nào?",
+        "Khi nào là thời điểm phù hợp để xin rút một học phần?",
+        "Cách xin rút học phần và thời gian áp dụng là gì?"
+      ],
+      "responses": [
+        "Thời gian xin rút một học phần là trước 1/2 thời gian của học phần đó."
+      ]
+    },
+    {
+      "tag": "question13",
+      "patterns": [
+        "Khoảng thời gian sinh viên sẽ đăng ký học tập cho học kỳ tới là khi nào?",
+        "Lịch đăng ký học tập cho học kỳ tiếp theo là khi nào?",
+        "Thời điểm đăng ký học tập cho kỳ sau là bao lâu?"
+      ],
+      "responses": [
+        "Sinh viên sẽ đăng ký học tập cho học kỳ tới trong tuần 5-6 của kỳ đang học."
+      ]
+    },
+    {
+      "tag": "question14",
+      "patterns": [
+        "Sinh viên được xếp loại học lực trung bình nếu điểm CPA như thế nào?",
+        "Điểm CPA từ bao nhiêu đến bao nhiêu là xếp loại học lực trung bình?",
+        "Loại học lực trung bình được xác định bởi điểm CPA nào?"
+      ],
+      "responses": [
+        "Sinh viên được xếp loại học lực trung bình nếu điểm CPA từ 2.0-2.49."
+      ]
+    },
+    {
+      "tag": "question15",
+      "patterns": [
+        "Làm thế nào để học đúng tiến độ?",
+        "Cách học đúng tiến độ là gì?",
+        "Hướng dẫn để duy trì tiến độ học tập như thế nào?"
+      ],
+      "responses": [
+        "Học đúng tiến độ bằng cách tuân thủ học kỳ chuẩn của Chương trình đào tạo."
+      ]
+    },
+    {
+      "tag": "question16",
+      "patterns": [
+        "Điểm rèn luyện được xếp loại theo cách nào dưới đây Xuất sắc, Tốt, Khá, Trung bình, Yếu, Kém",
+        "Các loại xếp loại điểm rèn luyện là gì?",
+        "Xếp loại điểm rèn luyện theo thang điểm nào?"
+      ],
+      "responses": [
+        "Điểm rèn luyện được xếp loại theo thang điểm Xuất sắc, Tốt, Khá, Trung bình, Yếu, Kém."
+      ]
+    },
+    {
+      "tag": "question17",
+      "patterns": [
+        "Học bổng Trần Đại Nghĩa(hỗ trợ học tập) có mấy mức học bổng?",
+        "Học bổng Trần Đại Nghĩa hỗ trợ học tập ở bao nhiêu mức?",
+        "Có những mức học bổng nào trong học bổng Trần Đại Nghĩa?"
+      ],
+      "responses": [
+        "Học bổng Trần Đại Nghĩa có 2 mức: 50% học phí, 100% học phí."
+      ]
+    },
+    {
+      "tag": "question18",
+      "patterns": [
+        "Quy định về việc xét cấp học bổng cho sinh viên xem tạiCtt-daotao.hust.edu.vn",
+        "Nơi nào có quy định về cấp học bổng cho sinh viên?",
+        "Xem quy định về học bổng trên trang web nào?"
+      ],
+      "responses": [
+        "Quy định về việc xét cấp học bổng cho sinh viên có thể xem tại https://ctt-daotao.hust.edu.vn."
+      ]
+    },
+    {
+      "tag": "question19",
+      "patterns": [
+        "Điểm rèn luyện được đánh giá khi nào?",
+        "Khi nào xác định điểm rèn luyện của sinh viên?",
+        "Thời điểm đánh giá điểm rèn luyện là khi nào?"
+      ],
+      "responses": [
+        "Điểm rèn luyện được đánh giá vào cuối học kỳ."
+      ]
+    },
+    {
+      "tag": "question20",
+      "patterns": [
+        "Địa chỉ Ban Công tác Sinh viên",
+        "Nơi đặt văn phòng Ban Công tác Sinh viên là gì?",
+        "Địa chỉ Ban Công tác Sinh viên ở đâu?"
+      ],
+      "responses": [
+        "Địa chỉ Ban Công tác Sinh viên là Phòng 101-102-103-104-105 nhà C1."
+      ]
+    },
+    {
       "tag": "goodbye",
       "patterns": [
         "Tạm biệt",
