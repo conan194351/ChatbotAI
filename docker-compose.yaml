@@ -1,0 +1,26 @@
+version: '3'
+services:
+  chatbot_be:
+    build:
+      dockerfile: ./Dockerfile
+      context: ApiGateway
+    container_name: chatbot_be
+    ports:
+      - "8081:8081"
+  chatbot_ui:
+    build:
+      dockerfile: ./Dockerfile
+      context: nx
+    container_name: chatbot_ui
+    depends_on:
+      - chatbot_be
+    ports:
+      - "3000:3000"
+  discord_chatbot:
+    build:
+      dockerfile: ./Dockerfile
+      context: ChatbotDiscord
+    environment:
+      - TOKEN=
+    container_name: discord_chatbot
+  

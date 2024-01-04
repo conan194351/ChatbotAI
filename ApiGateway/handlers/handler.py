@@ -21,5 +21,4 @@ class Handler:
         data = request.get_json()
         msg_value = data.get('msg')
         return jsonify(Service.chatbot(msg_value))
-    # def message(self):
             

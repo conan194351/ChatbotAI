@@ -1,9 +1,10 @@
 from services.service import Service
 import discord
+import os
 
 class Package:
     def run_discord_bot ():
-        TOKEN = 'MTE4ODUxODU4ODgxMDgwMTE5NA.Gg9zby.YadaFWI24qbxbA5p3lamQMNJrHDctV584Jh0CQ'
+        TOKEN = os.environ.get("TOKEN")
         intents = discord.Intents.default()
         intents.message_content = True
         client = discord.Client(intents=intents)
