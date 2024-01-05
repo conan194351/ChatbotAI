@@ -21,6 +21,6 @@ services:
       dockerfile: ./Dockerfile
       context: ChatbotDiscord
     environment:
-      - TOKEN=
+      - TOKEN=MTE4ODUxODU4ODgxMDgwMTE5NA.GEAqD4.vx0iQ9lz5JNfhvx1oQCLO3hhs3hGCTuBscLkKM
     container_name: discord_chatbot
   
