@@ -13,11 +13,3 @@ def health_check_route():
 @routers.route('/chat', methods=['POST'])
 def chat():
     return Handler.chat()
-
-@routers.route('/webhook', methods=['POST'])
-def webhook():
-    return Handler.webhook()
-
-@routers.route('/messaging-webhook', methods=['GET'])
-def messaging_webhook():
-    return Handler.get_webhook()

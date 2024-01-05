@@ -3,8 +3,8 @@ import json
 import os
 import torch
 
-from .model import NeuralNet
-from .nltk_utils import bag_of_words, tokenize
+from model import NeuralNet
+from nltk_utils import bag_of_words, tokenize
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 current_module_path = os.path.dirname(__file__)
@@ -25,7 +25,7 @@ model = NeuralNet(input_size, hidden_size, output_size).to(device)
 model.load_state_dict(model_state)
 model.eval()
 
-bot_name = "Sam"
+bot_name = "Jack"
 
 def get_response(msg):
     sentence = tokenize(msg)
@@ -45,6 +45,6 @@ def get_response(msg):
             if tag == intent["tag"]:
                 return random.choice(intent['responses'])
     
-    return "Xin lỗi tôi không biết câu trả lời cho câu hỏi của bạn :(..."
+    return "I do not understand..."
 
     

@@ -71,12 +71,17 @@ class ChatApplication:
         self.text_widget.insert(END, msg1)
         self.text_widget.configure(state=DISABLED)
         
-        msg2 = f"{bot_name}: {get_response(msg)}\n\n"
+        msg2 = f"{bot_name}: {get_response(common(msg))}\n\n"
         self.text_widget.configure(state=NORMAL)
         self.text_widget.insert(END, msg2)
         self.text_widget.configure(state=DISABLED)
         
         self.text_widget.see(END)
+        
+        
+def common(msg):
+    chuoi_khong_dau = msg.replace(',', '').replace('.', '').replace('?', '')
+    return chuoi_khong_dau.lower()
              
         
 if __name__ == "__main__":

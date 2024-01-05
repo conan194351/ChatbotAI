@@ -45,6 +45,6 @@ def get_response(msg):
             if tag == intent["tag"]:
                 return random.choice(intent['responses'])
     
-    return "Xin lỗi tôi không biết câu trả lời cho câu hỏi của bạn :(..."
+    return "I do not understand..."
 
     

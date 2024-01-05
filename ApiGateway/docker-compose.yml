@@ -1,0 +1,12 @@
+version: '3'
+services:
+  chatbot:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    environment:
+      ACCESS_TOKEN: EAAE3p7cmX00BOx0scNTxt51Q7ajpgt93MQBvrzcEUVyTpgctVlQ2RHrjhDmgcO2Jcdn9VguzdnxGZBRhL3ZAgTurUW9KoyLZCgE86ifvOSPHZC1g2TnthfWoRo6Ff88m2M4ZBAXZB77Q738F9v0ZA4bosMUB5KQFkB346moK3loZCCc2qbvHkEZCEkSs77ZCTZBSZBdRLzTa12GCt1BIPrWZC
+      PAGE_ID: 115819481416208
+      MYTOKEN: secrettoken12345
+    ports:
+      - "8081:80"
