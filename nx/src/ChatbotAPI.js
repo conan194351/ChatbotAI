@@ -1,11 +1,12 @@
 const API = {
   GetChatbotResponse: async (message) => {
     return new Promise(async (resolve, reject) => {
+      const apiUrl = process.env.REACT_APP_API_URL;
       try {
         console.log('message:', message);
 
         if (message === 'hi') {
-          resolve('Welcome to chatbot!');
+          resolve('Xin chào, rất vui được nói chuyện với bạn');
         } else {
           console.log('Making API request with message:', message);
 
@@ -19,7 +20,7 @@ const API = {
           };
 
           // Sử dụng fetch để gọi API
-          const response = await fetch('http://localhost:8081/chat', requestOptions);
+          const response = await fetch(apiUrl+"/chat", requestOptions);
 
           // Kiểm tra trạng thái của response
           if (!response.ok) {
