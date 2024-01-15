@@ -12,8 +12,6 @@ services:
       dockerfile: ./Dockerfile
       context: nx
     container_name: chatbot_ui
-    environment:
-      - REACT_APP_API_URL=chatbot_be:80
     depends_on:
       - chatbot_be
     ports:
@@ -22,7 +20,5 @@ services:
     build:
       dockerfile: ./Dockerfile
       context: ChatbotDiscord
-    environment:
-      - TOKEN=MTE4ODUxODU4ODgxMDgwMTE5NA.GEAqD4.vx0iQ9lz5JNfhvx1oQCLO3hhs3hGCTuBscLkKM
     container_name: discord_chatbot
   
